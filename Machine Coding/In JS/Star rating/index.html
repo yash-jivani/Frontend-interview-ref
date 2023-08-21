@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            .star {
+                color: gray;
+                font-size: 40px;
+                cursor: pointer;
+            }
+
+            .star-filled {
+                color: rgb(240, 240, 39);
+            }
+        </style>
+        <script src="./script.js" defer></script>
+        <title>Star Rating</title>
+    </head>
+    <body class="text-center mt-20">
+        <h1 class="font-bold text-3xl">Star Rating</h1>
+        <div class="star-container">
+            <!-- NOTE: data-(lowercase ONLY) -->
+            <span class="star" data-index="1">&#9733;</span>
+            <span class="star" data-index="2">&#9733;</span>
+            <span class="star" data-index="3">&#9733;</span>
+            <span class="star" data-index="4">&#9733;</span>
+            <span class="star" data-index="5">&#9733;</span>
+        </div>
+        <div>Star count: <span class="count">0</span></div>
+    </body>
+</html>

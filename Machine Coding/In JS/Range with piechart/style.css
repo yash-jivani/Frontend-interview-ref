@@ -1,0 +1,15 @@
+
+
+input {
+    font-size: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+.piechart {
+    margin: 20px 110px;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(green var(--percentage), lightgreen 0);
+    border-radius: 50%;
+}

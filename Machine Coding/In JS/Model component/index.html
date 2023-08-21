@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./script.js" defer></script>
+        <style>
+            .model {
+                display: none;
+                padding-top: 20rem;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        </style>
+        <title>Model Components</title>
+    </head>
+    <body class="text-center">
+        <h1 class="font-bold text-3xl">Model component</h1>
+        <button class="openBtn p-2 bg-green-500 rounded">Open</button>
+        <div class="model">
+            <div class="box">
+                <h1>Hello</h1>
+                <button class="closeBtn p-2 bg-red-500 rounded">Close</button>
+            </div>
+        </div>
+    </body>
+</html>

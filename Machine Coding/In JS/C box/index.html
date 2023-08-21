@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js" defer></script>
+    <style>
+        .box{
+            width: 40px;
+            height: 40px;
+            border: 1px solid black;
+        }
+        .fill{
+            background-color: green;
+        }
+    </style>
+    <title>C Box</title>
+</head>
+<body >
+    <div class="box-container flex flex-col gap-4 m-5">
+        <div class="row flex gap-4">
+            <div class="box" data-index="0"></div>
+            <div class="box" data-index="1"></div>
+            <div class="box" data-index="2"></div>
+        </div>
+        <div class="row flex gap-4">
+            <div class="box" data-index="3"></div>
+        </div>
+        <div class="row flex gap-4">
+            <div class="box" data-index="4"></div>
+            <div class="box" data-index="5"></div>
+            <div class="box" data-index="6"></div>
+        </div>
+    </div>
+</body>
+</html>
